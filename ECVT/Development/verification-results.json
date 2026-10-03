@@ -1,0 +1,44 @@
+{
+  "source_preservation": "PASS",
+  "automatic_bench_controls_removed": "PASS",
+  "unchanged_core_functions": [
+    "setupCan",
+    "setupInputs",
+    "setupMotorOutput",
+    "setupInterrupts",
+    "readSensors",
+    "readSheavePosition",
+    "calculatePotPercent",
+    "capturePrimaryInterval",
+    "captureRearWheelInterval",
+    "updateRpmFromInterval",
+    "combineAverage",
+    "applyRpmTimeouts",
+    "clearRpmState",
+    "calculateControl",
+    "chooseActiveTarget",
+    "calculateMotorPwm",
+    "applySafetyClamp",
+    "receiveCanData",
+    "forceNeutral",
+    "PR_RPM_ISR",
+    "RW_RPM_ISR"
+  ],
+  "control_grid_cases_per_variant": 120,
+  "control_grid_equal": true,
+  "hardware_tested": false,
+  "results": [
+    {
+      "variant": "bench",
+      "compile_warnings": "",
+      "result": "PASS: startup, setup neutral, variant-specific serial behavior, CAN payload, limits\nCONTROL_GRID_FINGERPRINT=14383468121523951453\n",
+      "source_sha256": "292a12c93a2d8e3c45c48edd19d6c4e872d34d6ab0051769a3ba32ee7dc102d3"
+    },
+    {
+      "variant": "automatic",
+      "compile_warnings": "",
+      "result": "PASS: startup, setup neutral, variant-specific serial behavior, CAN payload, limits\nCONTROL_GRID_FINGERPRINT=14383468121523951453\n",
+      "source_sha256": "2952bb5862f74d19ff2b1f74a9425bf4d4c71e3ba0970d9baaa7cd0b253b78a6"
+    }
+  ]
+}

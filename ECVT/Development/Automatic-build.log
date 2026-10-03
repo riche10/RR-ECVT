@@ -1,0 +1,82 @@
+Processing teensy40 (platform: teensy; board: teensy40; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/teensy/teensy40.html
+PLATFORM: Teensy (6.0.0) > Teensy 4.0
+HARDWARE: IMXRT1062 600MHz, 512KB RAM, 1.94MB Flash
+DEBUG: Current (jlink) External (jlink)
+PACKAGES: 
+ - framework-arduinoteensy @ 1.162.0 (1.62) 
+ - tool-teensy @ 1.162.0 (1.62) 
+ - toolchain-gccarmnoneeabi-teensy @ 1.150201.0 (15.2.1)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 93 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- FlexCAN_T4-master
+Building in release mode
+Compiling .pio\build\teensy40\src\main.cpp.o
+In file included from lib\FlexCAN_T4-master/FlexCAN_T4.h:561,
+                 from include/MyCANBUS.h:1,
+                 from src\main.cpp:2:
+lib\FlexCAN_T4-master/FlexCAN_T4.tpp: In member function 'void FlexCAN_T4<_bus, _rxSize, _txSize>::writeIMASKBit(uint8_t, bool)':
+lib\FlexCAN_T4-master/FlexCAN_T4.tpp:422:118: warning: implicit dereference will not access object of type 'vuint32_t' {aka 'volatile long unsigned int'} in statement
+  422 |   if ( mb_num < 32 ) (( set ) ? FLEXCANb_IMASK1(_bus) |= (1UL << mb_num) : FLEXCANb_IMASK1(_bus) &= ~(1UL << mb_num));
+      |                                                                                                                      ^
+lib\FlexCAN_T4-master/FlexCAN_T4.tpp:423:118: warning: implicit dereference will not access object of type 'vuint32_t' {aka 'volatile long unsigned int'} in statement
+  423 |   else (( set ) ? FLEXCANb_IMASK2(_bus) |= (1UL << (mb_num - 32)) : FLEXCANb_IMASK2(_bus) &= ~(1UL << (mb_num - 32)));
+      |                                                                                                                      ^
+lib\FlexCAN_T4-master/FlexCAN_T4.tpp: In member function 'void FlexCAN_T4<_bus, _rxSize, _txSize>::setBaudRate(uint32_t, FLEXCAN_RXTX)':
+lib\FlexCAN_T4-master/FlexCAN_T4.tpp:540:120: warning: implicit dereference will not access object of type 'vuint32_t' {aka 'volatile long unsigned int'} in statement
+  540 |   ( listen_only != LISTEN_ONLY ) ? FLEXCANb_CTRL1(_bus) &= ~FLEXCAN_CTRL_LOM : FLEXCANb_CTRL1(_bus) |= FLEXCAN_CTRL_LOM; /* listen-only mode */
+      |                                                                                                                        ^
+lib\FlexCAN_T4-master/FlexCAN_T4.tpp: In member function 'bool FlexCAN_T4<_bus, _rxSize, _txSize>::error(CAN_error_t&, bool)':
+lib\FlexCAN_T4-master/FlexCAN_T4.tpp:1346:33: warning: bitwise comparison always evaluates to false [-Wtautological-compare]
+ 1346 |   else if ( (error.ESR1 & 0x30) == 0x1 ) strncpy((char*)error.FLT_CONF, "Error Passive", (sizeof(error.FLT_CONF) - 1));
+      |             ~~~~~~~~~~~~~~~~~~~ ^~ ~~~
+lib\FlexCAN_T4-master/FlexCAN_T4.tpp: In member function 'void FlexCAN_T4<_bus, _rxSize, _txSize>::enableDMA(bool)':
+lib\FlexCAN_T4-master/FlexCAN_T4.tpp:1373:76: warning: implicit dereference will not access object of type 'vuint32_t' {aka 'volatile long unsigned int'} in statement
+ 1373 |   ( !state ) ? FLEXCANb_MCR(_bus) &= ~0x8000 : FLEXCANb_MCR(_bus) |= 0x8000;
+      |                                                                            ^
+In file included from lib\FlexCAN_T4-master/FlexCAN_T4.h:564:
+lib\FlexCAN_T4-master/FlexCAN_T4FD.tpp: In member function 'void FlexCAN_T4FD<_bus, _rxSize, _txSize>::setBaudRate(FLEXCAN_FDRATES, FLEXCAN_RXTX)':
+lib\FlexCAN_T4-master/FlexCAN_T4FD.tpp:190:120: warning: implicit dereference will not access object of type 'vuint32_t' {aka 'volatile long unsigned int'} in statement
+  190 |   ( listen_only != LISTEN_ONLY ) ? FLEXCANb_CTRL1(_bus) &= ~FLEXCAN_CTRL_LOM : FLEXCANb_CTRL1(_bus) |= FLEXCAN_CTRL_LOM;
+      |                                                                                                                        ^
+lib\FlexCAN_T4-master/FlexCAN_T4FD.tpp: In member function 'void FlexCAN_T4FD<_bus, _rxSize, _txSize>::enableDMA(bool)':
+lib\FlexCAN_T4-master/FlexCAN_T4FD.tpp:378:76: warning: implicit dereference will not access object of type 'vuint32_t' {aka 'volatile long unsigned int'} in statement
+  378 |   ( !state ) ? FLEXCANb_MCR(_bus) &= ~0x8000 : FLEXCANb_MCR(_bus) |= 0x8000;
+      |                                                                            ^
+lib\FlexCAN_T4-master/FlexCAN_T4FD.tpp: In member function 'void FlexCAN_T4FD<_bus, _rxSize, _txSize>::writeIMASKBit(uint8_t, bool)':
+lib\FlexCAN_T4-master/FlexCAN_T4FD.tpp:398:118: warning: implicit dereference will not access object of type 'vuint32_t' {aka 'volatile long unsigned int'} in statement
+  398 |   if ( mb_num < 32 ) (( set ) ? FLEXCANb_IMASK1(_bus) |= (1UL << mb_num) : FLEXCANb_IMASK1(_bus) &= ~(1UL << mb_num));
+      |                                                                                                                      ^
+lib\FlexCAN_T4-master/FlexCAN_T4FD.tpp:399:118: warning: implicit dereference will not access object of type 'vuint32_t' {aka 'volatile long unsigned int'} in statement
+  399 |   else (( set ) ? FLEXCANb_IMASK2(_bus) |= (1UL << (mb_num - 32)) : FLEXCANb_IMASK2(_bus) &= ~(1UL << (mb_num - 32)));
+      |                                                                                                                      ^
+In file included from lib\FlexCAN_T4-master/FlexCAN_T4.h:35:
+lib\FlexCAN_T4-master/FlexCAN_T4.tpp: In instantiation of 'bool FlexCAN_T4<_bus, _rxSize, _txSize>::setMB(const FLEXCAN_MAILBOX&, const FLEXCAN_RXTX&, const FLEXCAN_IDE&) [with CAN_DEV_TABLE _bus = CAN2; FLEXCAN_RXQUEUE_TABLE _rxSize = RX_SIZE_256; FLEXCAN_TXQUEUE_TABLE _txSize = TX_SIZE_16; FLEXCAN_MAILBOX = FLEXCAN_MAILBOX; FLEXCAN_RXTX = FLEXCAN_RXTX; FLEXCAN_IDE = FLEXCAN_IDE]':
+include/MyCANBUS.h:193:15:   required from here
+  193 |     Can2.setMB(MB0, TX, STD);
+      |     ~~~~~~~~~~^~~~~~~~~~~~~~
+lib\FlexCAN_T4-master/imxrt_flexcan.h:583:90: warning: value computed is not used [-Wunused-value]
+  583 | #define FLEXCAN_get_code(cs)                            (((cs) & FLEXCAN_MB_CS_CODE_MASK)>>24)
+      |                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+lib\FlexCAN_T4-master/FlexCAN_T4.tpp:245:3: note: in expansion of macro 'FLEXCAN_get_code'
+  245 |   FLEXCAN_get_code(FLEXCANb_MBn_CS(_bus, mb_num)); // Reading Control Status atomically locks mailbox (if it is RX mode).
+      |   ^~~~~~~~~~~~~~~~
+lib\FlexCAN_T4-master/FlexCAN_T4FD.tpp: At global scope:
+lib\FlexCAN_T4-master/FlexCAN_T4FD.tpp:402:13: warning: 'void flexcan_isr_can3fd()' defined but not used [-Wunused-function]
+  402 | static void flexcan_isr_can3fd() {
+      |             ^~~~~~~~~~~~~~~~~~
+Linking .pio\build\teensy40\firmware.elf
+Checking size .pio\build\teensy40\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+Calculating size .pio\build\teensy40\firmware.elf
+teensy_size: Memory Usage on Teensy 4.0:
+teensy_size:   FLASH: code:23288, data:4040, headers:8508   free for files:1995780
+teensy_size:    RAM1: variables:15936, code:21568, padding:11200   free for local variables:475584
+teensy_size:    RAM2: variables:12416  free for malloc/new:511872
+Building .pio\build\teensy40\firmware.hex
+========================= [SUCCESS] Took 1.47 seconds =========================

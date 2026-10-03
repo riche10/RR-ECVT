@@ -1,0 +1,358 @@
+{
+  "date": "2026-10-02",
+  "original_snapshot_files_verified": 52,
+  "bench_source_preserved": true,
+  "hardware_tested": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 65,
+      "sha256": "ad19f7a6774bd6cd29546aa4c759c6de559e6b276993e88a7ac134b6238e207d"
+    },
+    {
+      "path": "Automatic/Compiled/Automatic.elf",
+      "bytes": 65980,
+      "sha256": "158169dcd8ede74ea8093e815c5089ef74879e789c733a5d51be418b24535819"
+    },
+    {
+      "path": "Automatic/Compiled/Automatic.hex",
+      "bytes": 100877,
+      "sha256": "be5a1c77528817c099c5dd16f6842357d22837c7d44a0a564743549f9c79b186"
+    },
+    {
+      "path": "Automatic/include/MyCANBUS.h",
+      "bytes": 17520,
+      "sha256": "7525ad1bd39c789fc1ba6e9ae631002f3e712a293da7b33d254d67a51f098354"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/circular_buffer.h",
+      "bytes": 21778,
+      "sha256": "7b268c99b806a927f08b875b03df71cfc0399b23f4702143dbdab139dcf24b23"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/examples/beta_sample/beta_sample.ino",
+      "bytes": 1206,
+      "sha256": "f2a0428e128c3865e8f43183db52044f25867961663d45f36f18faeaa3549910"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/examples/BiDirectionalForward/BiDirectionalForward.ino",
+      "bytes": 374,
+      "sha256": "42a2bed73db89e7c8e1d53ab333c5f0486901c6809ca22127f0e2d6745f43ce3"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/examples/CAN2.0_example_FIFO_with_interrupts.ino",
+      "bytes": 1212,
+      "sha256": "7b0e9cb36796d3ee352f97f5403ea56b57ee00b4dcd518668c089fb0e72815ab"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/examples/isotp_example_send_receive/isotp_example_send_receive.ino",
+      "bytes": 2158,
+      "sha256": "f6f9125e97b37a1fca5232396bb5dcafdd979f7c9e09837c066e22dbbbb26b0f"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/examples/isotp_server_example/isotp_server_example.ino",
+      "bytes": 1687,
+      "sha256": "f8768c7fc789addce772b213f32a48083b3818ab8fc54b7b58630222bc555609"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/examples/read_two_channels/read_two_channels.ino",
+      "bytes": 1206,
+      "sha256": "f2a0428e128c3865e8f43183db52044f25867961663d45f36f18faeaa3549910"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/examples/T32CAN_LINSLAVE_WAKE_ON_CAN/T32CAN_LINSLAVE_WAKE_ON_CAN.ino",
+      "bytes": 1376,
+      "sha256": "b27d04fbf5c2a09d6ef71a806c46c5a9b4ba1dcf13806c1045409616f9c885d0"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/FlexCAN_T4.h",
+      "bytes": 24671,
+      "sha256": "f03119ccd6911d1427c2a8b37e8485e15a1030605a2b1f7fef75345e1cbf7407"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/FlexCAN_T4.tpp",
+      "bytes": 91923,
+      "sha256": "fda6fdd280468440f790f6f3c77bae457c55709ed210902e4b8248a790349d5b"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/FlexCAN_T4Beta1BoardArchive.zip",
+      "bytes": 23790,
+      "sha256": "9ad5ccb756054266c46897a48b85d487448f5e8a63c6aa53bbf80f1d691c8c7e"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/FlexCAN_T4FD.tpp",
+      "bytes": 38289,
+      "sha256": "6a88804b78cd746ff8485bb554272c3aa24bed937403f8d907c066d14fea5174"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/FlexCAN_T4FDTimings.tpp",
+      "bytes": 38559,
+      "sha256": "3bd7c802ddeb62a7c30791294c5b77be231ffe3414c784218dd69bb329fb604f"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/imxrt_flexcan.h",
+      "bytes": 60058,
+      "sha256": "7c1bd06585df531ab17ba223a9cc96c3e4c9f6386d638c0be28ca6705fd11e4d"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/isotp.h",
+      "bytes": 5199,
+      "sha256": "ae87d0e7100f4602dbf9ad9b94a9b6c4f4cefc0d194ae663538afe863ce688dc"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/isotp.tpp",
+      "bytes": 6418,
+      "sha256": "6e4d83ec88174b38abd741dfc5688dc390ede56d9029c5adb62edd8e7b10c1f7"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/isotp_server.h",
+      "bytes": 3518,
+      "sha256": "7e1c4cdb14f1bf5eae2ab9cf03a838354eb1f740027f74204fdaefc93ab72c49"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/isotp_server.tpp",
+      "bytes": 4698,
+      "sha256": "693892a91e7901c3d03948efecfc94cf8ab76c35e6b0ad6fe61858b1cbed9926"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/keywords.txt",
+      "bytes": 4983,
+      "sha256": "f1b09ac1276e2d2443d82d86d80b0c7e860ba80ffdafced70d05ac176dd9ba37"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/kinetis_flexcan.h",
+      "bytes": 57061,
+      "sha256": "caf119a9d16d72eaca312bd6079e6c857b312ce090d6759ef2fe4d32167f04db"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/LICENSE",
+      "bytes": 1071,
+      "sha256": "82487d43af075e48d5114e21658a95d1f9b89caf889dfab47cfc79db54e744a7"
+    },
+    {
+      "path": "Automatic/lib/FlexCAN_T4-master/README.md",
+      "bytes": 9942,
+      "sha256": "5e94bcb23c8120bba5da7af3586820418525ea6cd15f5a78c0afb20c6eee1241"
+    },
+    {
+      "path": "Automatic/lib/README.txt",
+      "bytes": 1100,
+      "sha256": "9e753e4bef2bb4c7a3784561f50d0c42ceb7bd0c65f183e73209e86ec9892192"
+    },
+    {
+      "path": "Automatic/platformio.ini",
+      "bytes": 449,
+      "sha256": "4e0d2afe681fb8721a92d6192840ca54f0fc0ae61cc537e66c57f76e7d529409"
+    },
+    {
+      "path": "Automatic/README.md",
+      "bytes": 1748,
+      "sha256": "364fc23b54726d582b7a6b7b0940eeaa76361e386510099a04ebb7fdc43eaaaf"
+    },
+    {
+      "path": "Automatic/src/main.cpp",
+      "bytes": 19607,
+      "sha256": "2952bb5862f74d19ff2b1f74a9425bf4d4c71e3ba0970d9baaa7cd0b253b78a6"
+    },
+    {
+      "path": "Bench Testing/Compiled/Bench-Testing.elf",
+      "bytes": 77572,
+      "sha256": "c8657a2acaba326860d5f3e3f7448967083146260b9557c44975a6fd21c2e4d7"
+    },
+    {
+      "path": "Bench Testing/Compiled/Bench-Testing.hex",
+      "bytes": 118170,
+      "sha256": "1a952c2b855fb15b7ea5b7c1f5909f62d5b9740b49e92a1012b1108fc7bb6809"
+    },
+    {
+      "path": "Bench Testing/include/MyCANBUS.h",
+      "bytes": 17520,
+      "sha256": "7525ad1bd39c789fc1ba6e9ae631002f3e712a293da7b33d254d67a51f098354"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/circular_buffer.h",
+      "bytes": 21778,
+      "sha256": "7b268c99b806a927f08b875b03df71cfc0399b23f4702143dbdab139dcf24b23"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/examples/beta_sample/beta_sample.ino",
+      "bytes": 1206,
+      "sha256": "f2a0428e128c3865e8f43183db52044f25867961663d45f36f18faeaa3549910"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/examples/BiDirectionalForward/BiDirectionalForward.ino",
+      "bytes": 374,
+      "sha256": "42a2bed73db89e7c8e1d53ab333c5f0486901c6809ca22127f0e2d6745f43ce3"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/examples/CAN2.0_example_FIFO_with_interrupts.ino",
+      "bytes": 1212,
+      "sha256": "7b0e9cb36796d3ee352f97f5403ea56b57ee00b4dcd518668c089fb0e72815ab"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/examples/isotp_example_send_receive/isotp_example_send_receive.ino",
+      "bytes": 2158,
+      "sha256": "f6f9125e97b37a1fca5232396bb5dcafdd979f7c9e09837c066e22dbbbb26b0f"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/examples/isotp_server_example/isotp_server_example.ino",
+      "bytes": 1687,
+      "sha256": "f8768c7fc789addce772b213f32a48083b3818ab8fc54b7b58630222bc555609"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/examples/read_two_channels/read_two_channels.ino",
+      "bytes": 1206,
+      "sha256": "f2a0428e128c3865e8f43183db52044f25867961663d45f36f18faeaa3549910"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/examples/T32CAN_LINSLAVE_WAKE_ON_CAN/T32CAN_LINSLAVE_WAKE_ON_CAN.ino",
+      "bytes": 1376,
+      "sha256": "b27d04fbf5c2a09d6ef71a806c46c5a9b4ba1dcf13806c1045409616f9c885d0"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/FlexCAN_T4.h",
+      "bytes": 24671,
+      "sha256": "f03119ccd6911d1427c2a8b37e8485e15a1030605a2b1f7fef75345e1cbf7407"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/FlexCAN_T4.tpp",
+      "bytes": 91923,
+      "sha256": "fda6fdd280468440f790f6f3c77bae457c55709ed210902e4b8248a790349d5b"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/FlexCAN_T4Beta1BoardArchive.zip",
+      "bytes": 23790,
+      "sha256": "9ad5ccb756054266c46897a48b85d487448f5e8a63c6aa53bbf80f1d691c8c7e"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/FlexCAN_T4FD.tpp",
+      "bytes": 38289,
+      "sha256": "6a88804b78cd746ff8485bb554272c3aa24bed937403f8d907c066d14fea5174"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/FlexCAN_T4FDTimings.tpp",
+      "bytes": 38559,
+      "sha256": "3bd7c802ddeb62a7c30791294c5b77be231ffe3414c784218dd69bb329fb604f"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/imxrt_flexcan.h",
+      "bytes": 60058,
+      "sha256": "7c1bd06585df531ab17ba223a9cc96c3e4c9f6386d638c0be28ca6705fd11e4d"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/isotp.h",
+      "bytes": 5199,
+      "sha256": "ae87d0e7100f4602dbf9ad9b94a9b6c4f4cefc0d194ae663538afe863ce688dc"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/isotp.tpp",
+      "bytes": 6418,
+      "sha256": "6e4d83ec88174b38abd741dfc5688dc390ede56d9029c5adb62edd8e7b10c1f7"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/isotp_server.h",
+      "bytes": 3518,
+      "sha256": "7e1c4cdb14f1bf5eae2ab9cf03a838354eb1f740027f74204fdaefc93ab72c49"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/isotp_server.tpp",
+      "bytes": 4698,
+      "sha256": "693892a91e7901c3d03948efecfc94cf8ab76c35e6b0ad6fe61858b1cbed9926"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/keywords.txt",
+      "bytes": 4983,
+      "sha256": "f1b09ac1276e2d2443d82d86d80b0c7e860ba80ffdafced70d05ac176dd9ba37"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/kinetis_flexcan.h",
+      "bytes": 57061,
+      "sha256": "caf119a9d16d72eaca312bd6079e6c857b312ce090d6759ef2fe4d32167f04db"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/LICENSE",
+      "bytes": 1071,
+      "sha256": "82487d43af075e48d5114e21658a95d1f9b89caf889dfab47cfc79db54e744a7"
+    },
+    {
+      "path": "Bench Testing/lib/FlexCAN_T4-master/README.md",
+      "bytes": 9942,
+      "sha256": "5e94bcb23c8120bba5da7af3586820418525ea6cd15f5a78c0afb20c6eee1241"
+    },
+    {
+      "path": "Bench Testing/lib/README.txt",
+      "bytes": 1100,
+      "sha256": "9e753e4bef2bb4c7a3784561f50d0c42ceb7bd0c65f183e73209e86ec9892192"
+    },
+    {
+      "path": "Bench Testing/platformio.ini",
+      "bytes": 449,
+      "sha256": "4e0d2afe681fb8721a92d6192840ca54f0fc0ae61cc537e66c57f76e7d529409"
+    },
+    {
+      "path": "Bench Testing/README.md",
+      "bytes": 1769,
+      "sha256": "d0f60d5485fa10a6757a21c4db5ab3ea4bf3e82909ffa66b84994a51cea0a0bf"
+    },
+    {
+      "path": "Bench Testing/src/main.cpp",
+      "bytes": 32774,
+      "sha256": "292a12c93a2d8e3c45c48edd19d6c4e872d34d6ab0051769a3ba32ee7dc102d3"
+    },
+    {
+      "path": "Development/Automatic-build.log",
+      "bytes": 7594,
+      "sha256": "a7c12f5a41d06a02e784ed3cf2651ed35d70969fd81a8e6157a7dcb1384b8b94"
+    },
+    {
+      "path": "Development/Bench-Testing-build.log",
+      "bytes": 12989,
+      "sha256": "d5615766f34d13a3e33f9e22a66473111da564f9c2ff68c22cb42fea775a23f4"
+    },
+    {
+      "path": "Development/Original RR ECVT CODE 2.0.zip",
+      "bytes": 189726,
+      "sha256": "67e886afe34ab212c97d02fe1d221ab74cc869cb020edbe16d22f35162c7285f"
+    },
+    {
+      "path": "Development/package.py",
+      "bytes": 3786,
+      "sha256": "4a5f9ca9033fcc3a73605411d5c918465489e5ef75067466afa99734e67e9b9f"
+    },
+    {
+      "path": "Development/tests/stubs/Arduino.h",
+      "bytes": 1801,
+      "sha256": "69b304285a5e381621f52db91d9a253a511e5f53f9f7926d34f99b3814912ac8"
+    },
+    {
+      "path": "Development/tests/stubs/MyCANBUS.h",
+      "bytes": 419,
+      "sha256": "34c4d2b055fa0f5ba46e1435ac5394b2aedb3bab42c8bc75c3526536fe364283"
+    },
+    {
+      "path": "Development/tests/variant_test.cpp",
+      "bytes": 5099,
+      "sha256": "5272917a5e640b3f410a8673307ed079e54d18461bfe0e094975ca6d87e69c94"
+    },
+    {
+      "path": "Development/tests/verify_variants.py",
+      "bytes": 4554,
+      "sha256": "335f314497cf681e93ff97ba309b7e8dd89ee4d9023629b8582811c41fc9e361"
+    },
+    {
+      "path": "Development/variant-diff.patch",
+      "bytes": 19425,
+      "sha256": "31263d1275fa99e785226d9c5a293b02c09219b20f65b007459241fe63b1f846"
+    },
+    {
+      "path": "Development/verification-results.json",
+      "bytes": 1395,
+      "sha256": "90fcde6a5cf735c8a83822b6e82d8c5857d6c7423a39305548516df7c1f984ac"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9141,
+      "sha256": "99023318288e693769f48a7561a4081eeb1249352f1ce99e407af0a7a5a0c5b4"
+    }
+  ]
+}

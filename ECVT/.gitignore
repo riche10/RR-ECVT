@@ -1,0 +1,5 @@
+**/.pio/
+**/__pycache__/
+**/.idea/
+**/.vscode/
+**/cmake-build-*/
