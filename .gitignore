@@ -1,0 +1,6 @@
+**/.venv/
+**/.pio/
+**/__pycache__/
+**/.verification/
+**/.idea/
+**/.vscode/

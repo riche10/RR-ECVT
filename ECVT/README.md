@@ -97,6 +97,6 @@ The next effective engineering step is controlled hardware verification using Be
 
 ## Archive location
 
-Designated Drive archive: [Omari's Rebel Racing CS archive](https://drive.google.com/drive/folders/1j1luTA2-eckgassuC9Ud5YJ6gs7yNPTD).
+My permanent source repository is [riche10/RR-ECVT](https://github.com/riche10/RR-ECVT). Clone it with `git clone https://github.com/riche10/RR-ECVT.git` or fork it on GitHub.
 
-This package was prepared locally. It has not yet been published to Drive or to an Omari GitHub repository. Permanent repository links should be added when those destinations are established.
+The [ECVT Drive folder](https://drive.google.com/drive/folders/17MOu5zUdLnmCDNxxZ6Qa_KUTOuj7y_u6) contains the packaged handoff inside [OMR Archive Code Folders](https://drive.google.com/drive/folders/1YMSVlIcbM706c-cv89uMgr0dELSpGD02). The master README in OMR links all three projects. GitHub history starts with the supplied archive snapshot and records publication updates; it does not recreate missing development commits.
